@@ -1,0 +1,389 @@
+html {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+html h1 , h2 , h3 {
+  font-weight: bold;
+}
+#headerBarr {
+  display: flex;
+  width: 100%;
+  height: 64px;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 23px;
+}
+.navBarrSections {
+  display: flex;
+  padding: 0px 36px;
+  color: darkgray;
+}
+body {
+  margin: 0px;
+}
+.navBarrSections span {
+  color: gray;
+}
+.navBarrSections nav a {
+  padding-left: 16px;
+}
+#icon2{
+  display: none;
+}
+#icon3{
+  display: none;
+}
+#icon4{
+  display: none;
+}
+.container {
+  width: 100%;
+  height: auto;
+  margin: 0px;
+  align-items: center;
+}
+.section.image {
+  width: 60%;
+  padding: 32px 24px;
+
+}
+.section.image img {
+  width: 100%;
+
+}
+.section.Information.txt {
+  width: 30%;
+
+}
+#banner {
+  background-color: lightgray;
+  display: flex;;
+  justify-content: flex-start;
+}
+.section.Information  {
+  flex-wrap: wrap column;
+}
+.section.Information p {
+  color: #3B3634;
+  font-size: 28px;
+}
+.startButton button{
+  width: 100%;
+  background-color: #3B3634;
+  color: lightgray;
+  padding: 8px 0px;
+  text-align: center;
+  font-size: 24px;
+  border: 1px solid gray;
+}
+#guest2{
+  display: none;
+}
+#campus2{
+  display: none;
+}
+#orientation2{
+  display: none;
+}
+.main.container {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+.ImageSection  {
+  width: 60%;
+  height: 100%;
+}
+.ImageSection img {
+  width: 100%;
+}
+.NavSection {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.NavSection img {
+  width: 35%;
+  padding: 16px;
+  border-right: 1px gray;
+}
+.subsections {
+  width: 100%;
+  border: 1px solid gray;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+.subsections:hover {
+  background-color: gray;
+  color: white;
+}
+.subsections p {
+  padding: 8px 0px;
+}
+.ImageSection , .NavSection {
+  padding: 32px 24px;
+}
+.start-learning-container{
+  width: 30%;
+  height: auto;
+  background-color: white;
+  margin-bottom: 32px ;
+}
+.start-learning-container img {
+  width: 100%;
+  height: auto;
+
+}
+.asdf{
+  padding: 0px 72
+}
+.learning{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+#learning {
+    background-color: lightgray;
+
+
+}
+#learning h1 {
+  padding: 32px;
+  text-align: center;
+  font-size: 50px;
+}
+.container-text {
+  padding: 16px;
+}
+.container-text p {
+  padding-top: 8px;
+}
+#learning h1 , h2 {
+  color: black;
+}
+#learning p {
+  color: #3B3634;
+}
+.thesis-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+#thesis h1{
+  text-align: center;
+  font-size: 50px;
+}
+#thesis p {
+  color: #3B3634;
+}
+.thesis-video-container {
+  width: 60%;
+  padding: 0px 24px 24px 24px;
+}
+.thesis-video-container video {
+  width: 100%;
+
+}
+.thesis-video-container h1{
+  padding-bottom: 8px;
+}
+.thesis-nav-container {
+  width: 40%;
+  height: auto;
+}
+.thesis-nav-container-section{
+  width: 100%;
+  display: flex;
+  height: auto;
+  align-items: flex-start;
+  align-content: center;
+}
+.thesis-nav-container-section.fisma {
+ background-color: lightgray;
+}
+.thesis-nav-container-section img {
+  padding: 16px;
+  width: 35%;
+  height: auto;
+}
+.thesis-nav-container-section.thesis-nav-container-section-text{
+  width: 65%;
+
+}
+.copyright-section p {
+  font-size: 15px;
+  color: gray;
+}
+.copyright-section {
+  padding: 8px 24px;
+  border-top: 1px solid gray;
+}
+@media only screen and (max-width:720px){
+  #icon2{
+    display: flex;
+  }
+  #icon3{
+    display: flex;
+  }
+  #icon4{
+    display: flex;
+  }
+  .navBarrSections nav {
+    display: none;
+  }
+  .navBarrSections p {
+    display: none;
+  }
+ .navBarrSections.logo {
+   width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  #headerBarr{
+    width: 100%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;;
+  }
+  #banner{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+  .section.image {
+      width: 100%;
+      height: auto;
+      padding: 0px;
+  }
+
+  .startButton {
+    padding-bottom: 24px;
+  }
+  .section.information.txt {
+    width: 70%;
+    height: auto;
+    text-align: left;
+  }
+  .section.information p {
+    font-size: 22px;
+
+  }
+  .section.information h1 {
+    font-size: 35px;
+  }
+  .ImageSection{
+    display: none;
+
+  }
+  .NavSection{
+    padding: 16px;
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid gray;
+  }
+  .subsections{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    border: none;
+  }
+  .subsections:hover{
+    background-color:inherit;
+    color:inherit;
+  }
+  .subsections img{
+    width: 90%;
+  }
+  #guest2 {
+    display: flex;
+    padding-bottom: 0px;
+  }
+  #guest {
+    display: none;
+  }
+  #campus2 {
+    display: flex;
+    padding-bottom: 0px;
+  }
+  #campus {
+    display: none;
+  }
+  #orientation2 {
+    display: flex;
+    padding-bottom: 0px;
+  }
+  #orientation {
+    display: none;
+  }
+  .text123 {
+    width: 80%;
+    text-align: left;
+    height: auto;
+  }
+  .text123 p{
+    font-size: 20px;
+    padding: 0px;
+    display: flex;
+  }
+  .text123 h3{
+    font-size: 28px;
+    padding: 0px;
+  }
+  .thesis-video-container {
+    width: 100%;
+    height: auto;
+    border: 0px;
+    padding: 0px;
+  }
+  .thesis-nav-container {
+    display: none;
+  }
+  #thesis {
+    border-top: 1px solid gray;
+
+  }
+  #learning{
+    margin-bottom: 32px;
+  }
+  .thesis-video-section-text {
+    display: none;
+  }
+  .container-text{
+    padding: 0px 8px ;
+  }
+}
+@media only screen and (max-width:600px){
+  #learning {
+    background-color: white;
+  }
+  #learning h1 {
+    font-size: 40px;
+    padding: 0px;
+  }
+  #learning img {
+    display: none;
+  }
+  #learning p {
+    display: none;
+
+  }
+  .start-learning-container  {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 4px 16px;
+    background-color: lightgray;
+  }
+  .container-text {
+    padding: 0px 16px;
+
+  }
+}
